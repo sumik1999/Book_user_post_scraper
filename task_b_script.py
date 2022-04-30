@@ -7,7 +7,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
 
 con = sqlite3.connect('booksdata.db')
 cur = con.cursor()
-cur.execute(f'''CREATE TABLE IF NOT EXISTS books( title text,price real, star_rating text , available text, id integer primary_key auto_increment )''')
+cur.execute(f'''CREATE TABLE IF NOT EXISTS books( id INTEGER PRIMARY KEY AUTOINCREMENT,title text,price real, star_rating text , available text )''')
 con.commit()
 
 URL = 'https://books.toscrape.com/catalogue/'
