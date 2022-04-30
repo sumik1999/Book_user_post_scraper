@@ -1,7 +1,7 @@
 #### There are two different scripts for two different tasks.
 
-1. The first task was to create users from an api and to fetch the posts for each user. I have used mongo db as the database here. Please ensure that mongo db is installed in the system.
-2. The second task was to scrape books from a website and populate that in the database and i have used sqlite database for this.
+1. The first script creates users from an api and to fetches the posts for each user. I have used mongo db as the database here. Please ensure that mongo db is installed in the system.
+2. The second script scrapes book-details from a website and populate that in the database and i have used sqlite database for this.
 
 ##### steps to follow:-
 
