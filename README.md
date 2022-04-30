@@ -5,6 +5,8 @@
 
 ##### steps to follow:-
 
+##### Clone this repo using `git clone`
+
 ##### `pip install requirements.txt`
 
 ##### `python task_a_script.py`
