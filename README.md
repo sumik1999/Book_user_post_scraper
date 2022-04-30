@@ -7,7 +7,7 @@
 
 ##### Clone this repo using `git clone`
 
-##### `pip install requirements.txt`
+##### `pip install -r requirements.txt`
 
 ##### `python task_a_script.py`
 
